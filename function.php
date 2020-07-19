@@ -11,7 +11,7 @@ function request($url, $token = null, $data = null, $pin = null, $otpsetpin = nu
     $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
     $header[] = "Connection: keep-alive";
     $header[] = "X-User-Locale: id_ID";
-    $header[] = "X-Location: -8.648023,115.208798;
+    $header[] = "X-Location: -8.648023,115.208798";
     $header[] = "X-Location-Accuracy: 3.0";
     if ($pin):
     $header[] = "pin: $pin";
